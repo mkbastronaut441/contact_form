@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="upper_container">
+            <h1 class="title">Contact Form - MongoDB</h1>
+            <br>
+            <h2 class="title"> All the fields are Required</h2>
+            <br>
+        </div>
+        <div class="lower_Container">
+            <form action="/information" method="POST">
+            <label for="Full Name"> Name :</label>
+            <br>
+            <input type="text" name="name" id="Full Name" placeholder="Your Full Name" required>
+            <br>
+            <br>
+
+            <label for="email">Email :</label>
+            <br>
+            <input type="email" name="email" id="email"  placeholder="Your Email" required>
+            <br>
+            <br>
+
+            <label for="Subject">Subject :</label>
+            <br>
+            <input type="Subject" name="subject" id="subject" placeholder="Job Enquiry" required>
+            <br>
+            <br>
+
+            <label for="message">Message :</label>
+            <br>
+            <textarea name="message" id="" col="100" rows="6" placeholder="Your mesaage For Us"></textarea>
+            <br>
+            <br>
+
+            <input type="submit" value="send">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
